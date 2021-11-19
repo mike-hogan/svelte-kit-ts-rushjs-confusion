@@ -1,12 +1,12 @@
 {
-  "name": "app",
-  "version": "0.0.1",
+  "name": "@parts/app",
+  "version": "1.0.0",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
     "preview": "svelte-kit preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+    "check": "svelte-check --tsconfig tsconfig.json",
+    "check:watch": "svelte-check --tsconfig tsconfig.json --watch"
   },
   "devDependencies": {
     "@sveltejs/kit": "next",
@@ -17,7 +17,6 @@
     "typescript": "^4.4.3"
   },
   "type": "module",
-  "dependencies": {
-    "component": "file:../component"
+  "dependencies": {"@parts/component":"~1.0.0"
   }
 }

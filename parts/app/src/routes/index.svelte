@@ -1,6 +1,6 @@
 <script lang="ts">
-    import {Paginator} from "../../../component";
-    import type {PaginationData} from "../../../component";
+    import {Paginator} from "@parts/component";
+    import type {PaginationData} from "@parts/component";
 
     const paginationData:PaginationData = {
         numberPerPage:10,
@@ -9,5 +9,5 @@
     }
 </script>
 
-<h3>Component below</h3>
+<h3>Rushjs: Component below</h3>
 <Paginator {paginationData} currentPageNumber="1" />

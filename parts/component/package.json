@@ -1,6 +1,6 @@
 {
-  "name": "component",
-  "version": "0.0.1",
+  "name": "@parts/component",
+  "version": "1.0.0",
   "svelte": "./package/index.js",
   "module": "./package/index.js",
   "main": "./package/index.js",
@@ -9,8 +9,8 @@
     "dev": "svelte-kit dev",
     "build": "svelte-kit package",
     "preview": "svelte-kit preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+    "check": "svelte-check --tsconfig tsconfig.json",
+    "check:watch": "svelte-check --tsconfig tsconfig.json --watch"
   },
   "devDependencies": {
     "@sveltejs/kit": "next",
