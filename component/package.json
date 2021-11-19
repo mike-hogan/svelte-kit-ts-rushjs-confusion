@@ -1,0 +1,27 @@
+{
+  "name": "component",
+  "version": "0.0.1",
+  "svelte": "./package/index.js",
+  "module": "./package/index.js",
+  "main": "./package/index.js",
+  "types": "./package/index.d.ts",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "svelte": "^3.42.6",
+    "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.9.4",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "svelte2tsx": "^0.4.10"
+  }
+}
